@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    password: postgres
+    url: jdbc:postgresql://localhost/sweater
+    username: postgres
+  freemarker:
+    expose-request-attributes: true
+  jpa:
+    hibernate:
+      ddl-auto: update
