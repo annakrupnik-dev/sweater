@@ -35,6 +35,7 @@ public class MainController {
         }
         model.addAttribute("messages", messages);
         model.addAttribute("tagFilter", tagFilter);
+
         return "main";
     }
 

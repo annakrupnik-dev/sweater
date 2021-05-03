@@ -5,6 +5,7 @@ spring:
     username: postgres
   freemarker:
     expose-request-attributes: true
+    recognize_standard_file_extensions: true
   jpa:
     hibernate:
       ddl-auto: update
